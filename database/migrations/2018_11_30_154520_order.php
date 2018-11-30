@@ -19,7 +19,7 @@ class Order extends Migration
             $table->string('email');
             $table->string('phone');
             $table->timestamp('date_complite');
-            $table->timestamp();
+            $table->timestamps();
         });
     }
 
